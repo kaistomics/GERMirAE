@@ -26,4 +26,7 @@ n_iter : integer, number of iterations for machine learning algorithms (sys.argv
 example :  python GERMirAE.py ANY onlyCtr 88 100
 ```
 
+## Output
+Binary classification and the probability of occurrences for the irAE of interest according to the samples
+
 <img width="279" alt="image" src="https://user-images.githubusercontent.com/35682945/214225841-50b8b5f4-1981-4d96-a001-2df973af4f32.png">
