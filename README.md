@@ -3,6 +3,7 @@
 GERMirAE is a tool for predicting the occurrences of irAE (immune-related adverse events) using WES-derived germline variants in patients treated with immune checkpoint blockade
 
 Prerequisites
+
 This program requires the following modules.
 
 Python (=> 2.7 ): https://www.python.org/
