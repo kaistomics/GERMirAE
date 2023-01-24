@@ -7,8 +7,11 @@ GERMirAE is a tool for predicting the occurrences of irAE (immune-related advers
 This program requires the following modules.
 
 Python (=> 2.7 ): https://www.python.org/
+
 NumPy : http://www.numpy.org/
+
 scikit-learn : http://scikit-learn.org/stable/index.html
+
 
 ## Options
 
