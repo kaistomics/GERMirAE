@@ -11,10 +11,13 @@ scikit-learn : http://scikit-learn.org/stable/index.html
 
 Options
 
--m INT : OCSVM-Splicing model number (1,2,or 3)
+type_ : string, type of irAE (sys.argv[1] # ANY, SKIN, ENDO etc.)
 
--i STR : Input file name
+labmd : string, mode of labelling (sys.argv[2] # all, within, onlyCtr)
 
--o STR : Output file name
+cores : integer, number of cores used for the calculation (sys.argv[3])
 
-example:  python one_calss_SVM.py -m 1 -i model_1_input_example.txt -o model_1_output.txt
+n_iter : integer, number of iterations for machine learning algorithms (sys.argv[4])
+
+example :  python GERMirAE.py ANY onlyCtr 88 100
+
